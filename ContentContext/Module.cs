@@ -1,0 +1,14 @@
+﻿namespace ConsoleApp1.ContentContext.Enums
+{
+        public class Module
+    {
+        public Module()
+        {
+            Lectures = new List<Lecture>();
+        }
+        public int Ordem { get; set; }
+        public string Title { get; set; }
+
+        public IList<Lecture> Lectures { get; set; }
+    }
+}
