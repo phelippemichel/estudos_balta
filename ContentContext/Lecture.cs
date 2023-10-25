@@ -1,7 +1,7 @@
 ﻿using ConsoleApp1.ContentContext.Enums;
 namespace ConsoleApp1.ContentContext
 {
-    public class Lecture
+    public class Lecture : Base
     {
         public int Ordem { get; set; }
         public string Title { get; set; }

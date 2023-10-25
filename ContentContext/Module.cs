@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApp1.ContentContext
 {
-        public class Module
+        public class Module : Base
     {
         public Module()
         {
