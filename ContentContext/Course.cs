@@ -1,8 +1,10 @@
-﻿namespace ConsoleApp1.ContentContext.Enums
+﻿using ConsoleApp1.ContentContext.Enums;
+
+namespace ConsoleApp1.ContentContext
 {
     public class Course : Content
     {
-        public Course()
+        public Course(string title, string url): base(title, url)
         {
             Modules = new List<Module>();
         }
