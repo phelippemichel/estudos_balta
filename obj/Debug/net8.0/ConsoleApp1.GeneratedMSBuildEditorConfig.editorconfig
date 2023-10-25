@@ -8,5 +8,5 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleApp1
-build_property.ProjectDir = /Users/phelippesantos/devc/estudos_balta/ConsoleApp1/
+build_property.ProjectDir = /Users/phelippesantos/devc/estudos_balta/
 build_property.EnableComHosting = 
