@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1.ContentContext.Enums
+﻿namespace ConsoleApp1.ContentContext
 {
         public class Module
     {
