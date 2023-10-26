@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp1.ContentContext
+﻿using ConsoleApp1.SharedContext;
+
+namespace ConsoleApp1.ContentContext
 {
         public class Module : Base
     {
