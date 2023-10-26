@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.ContentContext.Enums;
+using ConsoleApp1.SharedContext;
 namespace ConsoleApp1.ContentContext
 {
     public class Lecture : Base

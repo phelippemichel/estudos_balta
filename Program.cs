@@ -1,4 +1,7 @@
 ﻿using ConsoleApp1.ContentContext;
+using ConsoleApp1.SubscriptionContext;
+using ConsoleApp1.NotificationContext;
+using ConsoleApp1.SharedContext;
 namespace ConsoleApp1
 {
 	class Program
@@ -49,6 +52,10 @@ namespace ConsoleApp1
 						Console.WriteLine($"{notification.Property} - {notification.Message}");
 					}
 				}
+
+				var PayPalSubscription = new PayPalSubscription();
+				var student = new Student();
+				student.CreateSubscription(PayPalSubscription);
 			}
 		}
 	}

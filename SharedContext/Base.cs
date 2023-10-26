@@ -1,5 +1,5 @@
 ﻿using ConsoleApp1.NotificationContext;
-namespace ConsoleApp1.ContentContext
+namespace ConsoleApp1.SharedContext
 {
     public abstract class Base : Notifiable
     {
